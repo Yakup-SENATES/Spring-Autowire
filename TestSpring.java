@@ -22,7 +22,7 @@ public class TestSpring {
 		
 		dbhelper.updateDatabase();
 
-		
+		dbhelper.closeConnetion();
 		
 		context.close();
 		
